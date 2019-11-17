@@ -50,5 +50,11 @@
             <version>2.0.0.0</version>
             <scope>compile</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.applitools/eyes-common-java4 -->
+        <dependency>
+            <groupId>com.applitools</groupId>
+            <artifactId>eyes-selenium-java3</artifactId>
+            <version>RELEASE</version>
+        </dependency>
     </dependencies>
 </project>

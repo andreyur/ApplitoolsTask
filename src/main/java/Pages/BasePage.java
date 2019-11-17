@@ -14,7 +14,7 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 public class BasePage {
     private static final int TIMEOUT = 10;
     private static final int POLLING = 1;
-    public static final String BASE_URL="https://demo.applitools.com/hackathon.html";
+    public static final String BASE_URL="https://demo.applitools.com/hackathonV2.html";
     protected WebDriver driver;
     private Wait<WebDriver> wait;
 

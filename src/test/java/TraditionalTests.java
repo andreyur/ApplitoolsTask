@@ -19,8 +19,8 @@ public class TraditionalTests {
     LoginPage loginPage;
     HomePage homePage;
 
-    @BeforeSuite
-    public void beforeSuite(){
+    @BeforeClass
+    public void beforeClass(){
         // Initialization WebDriver
         driver=BrowserFactory.getDriver("CHROME");
     }
@@ -129,8 +129,8 @@ public class TraditionalTests {
         };
     }
 
-    @AfterSuite
-    public void afterSuit(){
+    @AfterClass
+    public void afterClass(){
         //Close the browser
         driver.quit();;
     }

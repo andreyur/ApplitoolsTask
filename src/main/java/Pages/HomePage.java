@@ -19,11 +19,25 @@ public class HomePage extends BasePage  {
         super(driver);
     }
     public static final String TRANSACTIONS_TABLE = "#transactionsTable";
+    public static final String COMPARE_LINK = "#showExpensesChart";
+    public static final String ADD_DATASET_BUTTON = "#addDataset";
 
     @FindBy (css = TRANSACTIONS_TABLE)
     private WebElement transactionsTable;
     public WebElement getTransactionsTable() {
         return transactionsTable;
+    }
+
+    @FindBy (css = COMPARE_LINK)
+    private WebElement compareLink;
+    public WebElement getCompareLink() {
+        return compareLink;
+    }
+
+    @FindBy (css = ADD_DATASET_BUTTON)
+    private WebElement addDatasetButton;
+    public WebElement getAddDatasetButton() {
+        return addDatasetButton;
     }
 
     public HomePage open(String url){
